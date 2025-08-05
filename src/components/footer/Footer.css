@@ -1,0 +1,104 @@
+ footer{
+    background-image: url('https://meditro.themetrades.com/react/static/media/footer.d025f458ac691ab6e8fa.jpg') !important;
+    position: relative;
+    margin-top: 5%;
+}
+footer img::after {
+    content:'';
+    position: absolute;
+    background-color: red;
+    left:20px
+
+}
+.pargarph{
+    font-size:17px;
+    font-weight: 600;
+}
+.numberPhone{
+    display: flex;
+    margin-left: -10px;
+    margin-top: 15%;
+}
+.iconPhone{
+    font-size: 23px;
+    padding: 15px;
+    background-color: #f17732;
+    color:white;
+    border-radius: 50px;
+    border-bottom-right-radius: 5px;
+
+}
+.contact{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.number{
+    color: #1f2278;    
+     font-weight: bold;
+}
+.spanContact{
+    color: #f17732;  
+    font-weight: bold;  
+    font-size: 13px;
+    margin-left: 2px;
+}
+.Links{
+    color: #1f2278;
+    font-size: 21px;
+}
+.imageFooter{
+    margin-bottom: 25px;
+    height: 7px;
+    width: 80px;
+}
+.link{
+    color: #444444;
+
+    list-style: none;
+    text-decoration: none; 
+    font-size: 17px;
+    font-weight: 500;
+}
+.EmailAddress{
+    padding: 15px;
+    width: 85%;
+    height: 55px;
+    color: black !important;
+    border:0.5px solid transparent;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.button-footer{
+    padding: 15px;
+    width: 85%;
+    height: 55px;
+    color: black !important;
+    border:1px solid transparent !important;
+    border-radius: 15px !important;
+    background-color: #f17732 !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+.icon-links{
+    padding: 10px;
+    font-size: 27px;
+    display: flex;
+    gap:18px;
+}
+.icon-Facebook{
+    background-color: #475993;
+}
+.Copyright{
+    color: #f17732;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.CopyrightName{
+    color: #475993;
+
+    list-style: none;
+    text-decoration: none; 
+    font-size: 17px;
+    font-weight: 500;
+}
