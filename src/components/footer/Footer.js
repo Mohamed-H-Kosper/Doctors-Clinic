@@ -9,13 +9,10 @@ import './Footer.css';
 function Footer(){
     return(
     <footer className="text-center text-lg-start  text-muted ">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      
-        </section>
-      
+
         <section >
-          <div className="container text-center text-md-start mt-5">
-            <div className="row mt-3">
+          <div className="container text-center text-md-start ">
+            <div className="row ">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold mb-4">
                  <Image src={LOGO} />

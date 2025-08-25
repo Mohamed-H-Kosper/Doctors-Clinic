@@ -5,7 +5,7 @@ import { faAnglesRight } from '@fortawesome/free-solid-svg-icons';
 function Working(){
     return(
         <section>
-        <div className="container">
+        <div className="container mb-5">
             <div className="row">
         <div className='container-text1'><h6 className='text1-section1'>Working Process</h6></div>
         <h2 className='text2-section1'>How we works?</h2>

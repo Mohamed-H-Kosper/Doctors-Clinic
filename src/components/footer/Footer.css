@@ -1,14 +1,12 @@
  footer{
     background-image: url('https://meditro.themetrades.com/react/static/media/footer.d025f458ac691ab6e8fa.jpg') !important;
     position: relative;
-    margin-top: 5%;
 }
 footer img::after {
     content:'';
     position: absolute;
     background-color: red;
     left:20px
-
 }
 .pargarph{
     font-size:17px;
@@ -26,7 +24,6 @@ footer img::after {
     color:white;
     border-radius: 50px;
     border-bottom-right-radius: 5px;
-
 }
 .contact{
     margin-left: 20px;
@@ -92,11 +89,9 @@ footer img::after {
     color: #f17732;
     font-size: 16px;
     font-weight: 500;
-
 }
 .CopyrightName{
     color: #475993;
-
     list-style: none;
     text-decoration: none; 
     font-size: 17px;

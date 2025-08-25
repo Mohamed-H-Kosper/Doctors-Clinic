@@ -1,0 +1,27 @@
+tr , td , th{
+    border-width: 4px !important;
+}
+.icons-dashboard{
+    color: white !important;
+}
+.icons-dashboard:hover{
+    color: #d5d5d8 !important;
+    transition: all 0.1s ease;
+}
+.text-table{
+    color: #444797 !important;
+    /* opacity: 0.8; */
+}
+.spinner {
+  animation: spin 1s linear infinite;
+    color: #444797 !important;
+}
+.load{
+    color: #444797 !important;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

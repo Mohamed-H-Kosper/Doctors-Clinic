@@ -2,7 +2,6 @@
     width: 100%;
     height:auto;
     padding: 12px !important;
-    /* background-color: transparent; */
 }
 nav .navbar-nav {
     margin-top: 0.6rem;
@@ -23,15 +22,14 @@ nav .navbar-nav .active:hover {
     display: block;
 }
     #logo-offcanvas{
-            padding-bottom: 5%;
-            width: 50%;
+    padding-bottom: 5%;
+    width: 50%;
         }
      .phoneICON{
-            display: inline-block;
+    display: inline-block;
 }
     .number-span{
-            display: inline-block;
-            /* margin-left: 1%; */
+    display: inline-block;
 } 
 /* #nav-right{
   display: block !important; 
@@ -61,17 +59,33 @@ nav .phoneICON {
     font-size: 20px;
     font-weight: 750 !important;
     color: #1f2278;
-     /* margin-top: -20px;  */
 }
 nav #nav-button{
+    position: relative;
     padding: 10px 22px;
     margin-top: -6px;
     border-radius: 10px;
     background-color: #565acf !important;
+    font-weight: 700;
+    width: 120px;
+    text-align: left;
 }
-.contactIcon{
-    margin-left: 10px;
+nav #nav-button:hover{
+    background-color: #4043b1 !important;
 }
+.signupIcon {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+ .profileIcon{
+    position: absolute;
+     right: 10px;
+    top: 12px;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+ }
  #nav-phone{
     display: block;
 }

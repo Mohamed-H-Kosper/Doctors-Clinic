@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "email": "mohamed@gamil.com",
+      "password": "$2a$10$BvFXLKjSN4w0kC3TFz0kI.qHqCBKAGRbce37rOJCfy55rIK59ZIUe",
+      "userName": "mohamed kosper",
+      "id": 1
+    }
+  ]
+}

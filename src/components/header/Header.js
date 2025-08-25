@@ -6,6 +6,8 @@ import animate3 from "../../Images/header-animation-3.png";
 import animate4 from "../../Images/header-animation-4.png";
 import animate5 from "../../Images/header-animation-5.png";
 import "./Header.css";
+import About from "../About/About";
+import Working from "../../workingprocess/Working";
 
 
 function Header() {
@@ -34,6 +36,8 @@ function Header() {
               </div>
         </div>
       </header>
+      <About />
+      <Working />
     </>
   );
 }
